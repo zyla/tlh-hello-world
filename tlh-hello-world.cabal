@@ -1,0 +1,21 @@
+name:                tlh-hello-world
+version:             0.1.0.0
+synopsis:            Hello World in Type level Haskell with IO
+license:             BSD3
+license-file:        LICENSE
+author:              Maciej Bielecki
+maintainer:          zyla@prati.pl
+build-type:          Simple
+extra-source-files:  ChangeLog.md
+cabal-version:       >=1.10
+
+executable runtlh
+  main-is:             Main.hs
+  other-modules:       Parser
+  build-depends:       base >=4.9 && <4.10
+                     , ghc-prim >=0.5 && <0.6
+                     , hint
+                     , parsec
+                     , filepath
+
+  default-language:    Haskell2010

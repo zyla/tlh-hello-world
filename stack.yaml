@@ -1,7 +1,7 @@
 resolver: nightly-2016-08-29
 packages:
 - '.'
-- location: '/home/zyla/w/o/hint'
+- location: './hint'
   extra-dep: true
 
 extra-deps: []

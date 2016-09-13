@@ -1,4 +1,4 @@
-Code for the post "Type level Haskell, with IO".
+Code for the post [Type level Haskell, with IO](https://zyla.neutrino.re/posts/2016-09-06-tlh.html).
 Requires a modified version of `hint` library, available as Git submodule.
 
 Building:
